@@ -11,7 +11,7 @@ import math
 import matplotlib.pyplot as plt
 import seaborn as sns
 # from cnn_utils import *
-
+# hello
 save_to_file_dir = './tay_log/saved_logs'
 
 h5f = h5py.File('saved_gray.h5', 'r')
