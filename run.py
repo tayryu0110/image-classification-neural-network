@@ -9,6 +9,8 @@ os.environ['KMP_DUPLICATE_LIB_OK']='True'
 pretrain_1 = load_model('pretrain/VGGPreTrained_2_round.hdf5')
 pretrain_2 = load_model('pretrain/VGG.classifier.hdf5')
 
+# hello
+
 def find_1(image, stepSize, windowSize, ratio):
 	for y in range(0, image.shape[0], int(stepSize/ratio)):
 		for x in range(0, image.shape[1], int(stepSize*3/ratio)):
